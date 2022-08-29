@@ -1,23 +1,20 @@
-// let nome 
-// let idade
+// let nome;
+// let idade;
 
-// console.log(typeof nome)
-// console.log(typeof idade)
+// console.log(typeof nome, idade) 
 
 //Reflexao 
 //undefined pois é uma variavel indefinida
 
-// let nome = prompt("Qual o seu nome? ")
-// let idade = prompt("Quantos anos você tem? ")
+const nome = String(prompt("Qual o seu nome? "))
+let idade = Number(prompt("Quantos anos você tem? "))
 
-// console.log(typeof nome, nome)
-// console.log(typeof idade, idade)
+console.log(nome, idade)
 
 //Reflexao
 //objeto null pois tem uma variavel definida
 
-let nome = prompt("Qual seu nome? ")
-let idade = prompt("Quantos anos você tem?")
+console.log(typeof nome, typeof idade);
+console.log("Olá", nome, "você tem", idade, "anos.")
 
-console.log("Olá", nome, "voce tem", idade, "anos.")
-
+// console.log(` Olá ${nome} voce tem ${idade} anos.`)
